@@ -223,7 +223,7 @@ function getUserCoordinates(){
         });
     }, error => {
         if(error.code === error.PERMISSION_DENIED){
-            alert('Geolocatin permission denied. Please reset location permission to grant access again');
+            alert('Geolocation permission denied. Please reset location permission to grant access again');
         }
     });
 }
